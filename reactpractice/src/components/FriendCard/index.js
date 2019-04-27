@@ -3,9 +3,9 @@ import "./style.css";
 
 function FriendCard(props) {
   return (
-    <div className="card" onClick = {() => props.click(props.id)}>
+    <div className="card" onClick={() => props.clickCard(props.id)}>
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img src={props.image} alt="Friend" />
       </div>
     </div>
   );
