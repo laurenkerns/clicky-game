@@ -37,7 +37,8 @@ class App extends Component {
     });
 
   /////When cards are clicked on/////
-  ///clicked twice
+
+  /////////clicked twice////////
   if (this.state.ImageClicked.includes(id)){
     this.setState({
       Score: 0,
@@ -45,6 +46,7 @@ class App extends Component {
       Message: "Wrong!"
     });
   } else{
+  ////////correct anwser///////
     this.setState({
       Score: this.state.Score + 1,
       HighScore: this.state.HighScore +1,
@@ -57,7 +59,7 @@ class App extends Component {
              });
             }
       });
-////reset the high score/////
+//////////reset the high score//////////
       if (this.state.Score < this.state.HighScore) {
           this.setState({
             HighScore: this.state.HighScore
@@ -67,7 +69,6 @@ class App extends Component {
 }
 
 ////RENDER/////
-  // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <Wrapper>
