@@ -7,7 +7,6 @@ import Friends from "./Friends.json";
 const FriendCards = Friends;
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
   state = {
     Friends,
     Score: 0,
