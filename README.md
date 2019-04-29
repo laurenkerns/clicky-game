@@ -1,3 +1,13 @@
+## Clicky Game
+Clicky game is a memory game built with react. The appliations is broken up into components.
+
+## to play
+Click on an image, but try to not click on the same image twice. If guessed correctly the user's score will be updated. 
+
+If the user surpasses the high score, the high score will be updated. 
+
+
+///////////
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
